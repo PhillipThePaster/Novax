@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  Movax
+  Novax
   <br>
 </h1>
 
