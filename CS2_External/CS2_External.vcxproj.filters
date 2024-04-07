@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Entry">
+      <UniqueIdentifier>{b2e13447-07ee-4738-973e-dff75512b687}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS-ImGui">
+      <UniqueIdentifier>{5e80ef5d-5f4b-49ee-b443-120bb14cf27a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS-ImGui\imgui">
+      <UniqueIdentifier>{ab218404-3f90-49c1-936f-945331e62f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{dc44f983-6ac1-4cd3-892d-2e8877ec0950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{6d31e8d7-d8c1-4306-ab66-a79fab5a28b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\View">
+      <UniqueIdentifier>{3d76d523-ebe1-46aa-982f-99e167ac6724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Data">
+      <UniqueIdentifier>{ecf8f725-5819-4b5b-9e16-3ada7ee8c84f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Offsets">
+      <UniqueIdentifier>{0af61bf5-c236-403c-a0f8-48488f87bfcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\MenuConfig">
+      <UniqueIdentifier>{4ee44a79-e9da-483b-8c8c-46209c06c557}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\font">
+      <UniqueIdentifier>{81fc3c9c-a7b6-43cf-8c76-879b5101699e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Features">
+      <UniqueIdentifier>{8b6480be-6082-42a7-a2b5-2d8dabe5abe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Features\Aimbot">
+      <UniqueIdentifier>{25fcff09-07b2-480f-8251-5276900922d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Features\Esp">
+      <UniqueIdentifier>{c56baca4-ebf0-4a17-b76c-86d8d98adb6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Features\Triggerbot">
+      <UniqueIdentifier>{3a258e90-7caf-4b2d-a2bd-4a8d2403e98c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Features\Misc">
+      <UniqueIdentifier>{54f5ee24-ac20-43a0-b7f4-542c282bb712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Features\Menu">
+      <UniqueIdentifier>{c3ad690f-dfad-4f9d-8af5-41c242b4fe9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OS-ImGui\stb">
+      <UniqueIdentifier>{95b7d9bd-bc68-453a-8147-d99aecf6a082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Features\Radar">
+      <UniqueIdentifier>{d0f833d4-cdd7-47a3-9f78-91de80b19c5d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OS-ImGui\imgui\imconfig.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui_impl_dx11.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui_impl_win32.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imgui_internal.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imstb_rectpack.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imstb_textedit.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\imgui\imstb_truetype.h">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_Base.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_Exception.hpp">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_External.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\OS-ImGui_Struct.h">
+      <Filter>OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\ProcessManager.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="View.hpp">
+      <Filter>Cheats\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Cheats.h">
+      <Filter>Cheats</Filter>
+    </ClInclude>
+    <ClInclude Include="Bone.h">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Cheats\Offsets</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuConfig.hpp">
+      <Filter>Cheats\MenuConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="configsystem.h">
+      <Filter>Cheats\MenuConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="archivex.hpp">
+      <Filter>Cheats\MenuConfig</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Format.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="font\fontArray.h">
+      <Filter>Utils\font</Filter>
+    </ClInclude>
+    <ClInclude Include="font\IconsFontAwesome5.h">
+      <Filter>Utils\font</Filter>
+    </ClInclude>
+    <ClInclude Include="weaponFont.h">
+      <Filter>Utils\font</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Globalvars.hpp">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.cpp">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Globals.hpp">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="AimBot.hpp">
+      <Filter>Cheats\Features\Aimbot</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.hpp">
+      <Filter>Cheats\Features\Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="TriggerBot.hpp">
+      <Filter>Cheats\Features\Triggerbot</Filter>
+    </ClInclude>
+    <ClInclude Include="bomb.hpp">
+      <Filter>Cheats\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Watermarkshit.hpp">
+      <Filter>Cheats\Features\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuIcon.h">
+      <Filter>Utils\font</Filter>
+    </ClInclude>
+    <ClInclude Include="Theme.h">
+      <Filter>Cheats\Features\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="OS-ImGui\stb_image.h">
+      <Filter>OS-ImGui\stb</Filter>
+    </ClInclude>
+    <ClInclude Include="Hitsounds\Sounds.h">
+      <Filter>Cheats\Data</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.hpp">
+      <Filter>Cheats\Features\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Esp.hpp">
+      <Filter>Cheats\Features\Esp</Filter>
+    </ClInclude>
+    <ClInclude Include="images.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="math.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="mapdata.h">
+      <Filter>Cheats\Features\Radar</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OS-ImGui\imgui\imgui.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_demo.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_draw.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_impl_dx11.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_impl_win32.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_tables.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\imgui\imgui_widgets.cpp">
+      <Filter>OS-ImGui\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\OS-ImGui.cpp">
+      <Filter>OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\OS-ImGui_Base.cpp">
+      <Filter>OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="OS-ImGui\OS-ImGui_External.cpp">
+      <Filter>OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Cheats\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Cheats\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Bone.cpp">
+      <Filter>Cheats\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Offsets.cpp">
+      <Filter>Cheats\Offsets</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\MemorySearch.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\keys.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Globalvars.cpp">
+      <Filter>Cheats\Data</Filter>
+    </ClCompile>
+    <ClCompile Include="Cheats.cpp">
+      <Filter>Cheats</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldEsp.hpp">
+      <Filter>Cheats\Features\Esp</Filter>
+    </ClCompile>
+    <ClCompile Include="animation_lib.hpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="animation_lib.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="font\fa-regular.ttf">
+      <Filter>Utils\font</Filter>
+    </Font>
+    <Font Include="font\stratum2.ttf">
+      <Filter>Utils\font</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="font\icon.ico">
+      <Filter>Utils\font</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
