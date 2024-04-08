@@ -213,6 +213,8 @@ namespace Esp {
 		auto col = Config::BoxColor;
 		auto FillCol = Config::BoxFilledColor;
 
+		// for player list i was working on
+		/*
 		std::vector<std::string> redNames = { "Dimmi", "Icy", "Dimmi" };
 
 		for (const auto& name : redNames) {
@@ -221,6 +223,7 @@ namespace Esp {
 				break;
 			}
 		}
+		*/		
 		
 		if (Config::VisCheck) {
 			if (isSpotted) {
