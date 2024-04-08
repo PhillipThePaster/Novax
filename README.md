@@ -1,5 +1,4 @@
 <h1 align="center">
-  <br>
   Novax
   <br>
 </h1>
