@@ -95,6 +95,7 @@ Thanks to [michael conors](https://www.youtube.com/@michael18372/videos) for the
 - Bomb timer using C4FullBlow
 - Vpk Paring
 - Draggable Esp Preview
+- priority ( aimbot, esp color )
 
 # Issues
 - Ammo / Armour not showing on esp preview
