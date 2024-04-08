@@ -58,18 +58,19 @@ namespace Misc {
 
 			if (dmg > oldDamage) {
 				if (Config::Hitsound && Config::hitsound_type >= 0 && Config::hitsound_type <= 5) {
-
-					PlaySoundA(reinterpret_cast<char*>(sounds[Config::hitsound_type]), NULL, SND_ASYNC | SND_MEMORY); 
-					hitmarker.animation_progress = 0.0f;
-					hitmarker.damage = dmg - oldDamage; 
-					hitmarker.impacted = true;
-					hitmarkers.push_back(hitmarker);
+					PlaySoundA(reinterpret_cast<char*>(sounds[Config::hitsound_type]), NULL, SND_ASYNC | SND_MEMORY); 	
 				}
+				hitmarker.animation_progress = 0.0f;
+				hitmarker.damage = dmg - oldDamage;
+				hitmarker.impacted = true;
+				hitmarkers.push_back(hitmarker);
 			}
 			oldDamage = dmg;
 		}
 		if (Config::Hitmarker) Hitmarker(Config::HitmarkSize, Config::HitmarkGap);
 	}
+
+
 
 
 
