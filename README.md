@@ -94,7 +94,7 @@
 - Bomb timer using C4FullBlow
 - Vpk Paring
 
-#Issues
+# Issues
 - Ammo / Armour not showing on esp preview
 - esp lag
 - menu crashing
