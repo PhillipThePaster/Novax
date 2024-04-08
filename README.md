@@ -89,7 +89,7 @@ Thanks to [michael conors](https://www.youtube.com/@michael18372/videos) for the
 - Bomb Timer
 - Proper Keybindlist
 - Smoke / Molly Esp ( rlly bad ) 
-- MultiPoint ( Aimbot
+- MultiPoint ( Aimbot )
 - Grenade Helper ( not in code )
 - Minimizing healthbar function ( never got around to it )
 - Bomb timer using C4FullBlow
