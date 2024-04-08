@@ -77,7 +77,22 @@
 - Debuglist
 - V-sync
 
-
+# Unfished Features
+- Speclist
+- Sound Esp
+- 3d boxes
+- OOF arrows
+- Audible Sound Esp
+- Radar With Map Textures
+- Bomb Icon
+- Bomb Timer
+- Proper Keybindlist
+- Smoke / Molly Esp ( rlly bad ) 
+- MultiPoint ( Aimbot
+- Grenade Helper ( not in code )
+- Minimizing healthbar function ( never got around to it )
+- Bomb timer using C4FullBlow
+- Vpk Paring
 
 #Issues
 - Ammo / Armour not showing on esp preview
