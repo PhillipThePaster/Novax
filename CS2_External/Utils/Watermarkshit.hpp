@@ -26,11 +26,9 @@ namespace Watermark {
                 if (wcstombs_s(&charsConverted, narrowUsername, sizeof(narrowUsername), username, _TRUNCATE) == 0) {
                     if (Config::WaterMark) {
                         std::string watermark;
-                        if (Config::watermarkcheat) watermark += "Novax";
-                        if (Config::watermarkcheat && Config::watermarkuser)
-                            watermark += " | ";
-                        if (Config::watermarkuser) watermark += narrowUsername;
-                        if (Config::watermarktime) {
+                        if (Config::Watermarkf & (1 << 0)) watermark += "Novax";
+                        if (Config::Watermarkf & (1 << 1)) watermark += (narrowUsername[0] != '\0' ? " | " : "") + std::string(narrowUsername);
+                        if (Config::Watermarkf & (1 << 2)) {
                             auto now = std::chrono::system_clock::to_time_t(std::chrono::system_clock::now());
                             std::tm tm_local;
                             localtime_s(&tm_local, &now);
@@ -38,8 +36,8 @@ namespace Watermark {
                             timeStream << std::put_time(&tm_local, " | %H:%M:%S");
                             watermark += timeStream.str();
                         }
-                        if (Config::watermarkfps) watermark += " | " + std::to_string(static_cast<int>(FrameRate));
-                        if (Config::watermarkbuild) watermark += " | " + std::string(Config::adconf ? "Admin" : "Beta");
+                        if (Config::Watermarkf & (1 << 3)) watermark += " | " + std::to_string(static_cast<int>(FrameRate));
+                        if (Config::Watermarkf & (1 << 4)) watermark += " | " + std::string(Config::adconf ? "Admin" : "Beta");
                         auto watermark_size = ImGui::CalcTextSize(watermark.c_str());
                         draw_list->AddRectFilled(ImVec2(6, 4), ImVec2((4 * 2) + watermark_size.x + 6, 6), Config::Accent);
                         draw_list->AddRectFilled(ImVec2(6, 6), ImVec2((4 * 2) + watermark_size.x + 6, 25), IM_COL32(40, 40, 40, 200));
@@ -50,11 +48,3 @@ namespace Watermark {
         }
     }
 }
-
-
-
-
-
-
-
-
