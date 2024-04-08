@@ -70,12 +70,6 @@ namespace Misc {
 		if (Config::Hitmarker) Hitmarker(Config::HitmarkSize, Config::HitmarkGap);
 	}
 
-
-
-
-
-
-
 	// dont use this its so bad going to try and make it not eat fps and also will not show all smokes just 1
 	/*
     static inline uintptr_t GetSmokeEntity(int i, uintptr_t EntityListEntry) {
