@@ -102,3 +102,6 @@ Thanks to [michael conors](https://www.youtube.com/@michael18372/videos) for the
 - menu crashing
 - No config system
 - aimbot being faster when vsync is om
+
+
+this is based on [Tkazer](https://github.com/TKazer/CS2_External) -> [Aeonix](https://github.com/Fr0go1/Aeonix-Cs2) -> Novax
