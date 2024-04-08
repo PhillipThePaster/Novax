@@ -20,7 +20,6 @@ Thanks to [michael conors](https://www.youtube.com/@michael18372/videos) for the
   Features
 </h2>
 
-# Combat
 
 ## Aimbot
 - Draw Fov
