@@ -196,12 +196,10 @@ namespace Config {
 
 	//watermark
 	inline bool WaterMark = true;
-        inline unsigned int Watermarkf = 0;
+        inline unsigned int Watermarkf = 31;
 
 	inline bool vsync = true;
 	inline bool Debuglist = false;
-
-
 }
 
 namespace CrosshairConfig
