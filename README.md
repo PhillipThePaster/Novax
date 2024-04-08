@@ -20,7 +20,7 @@
 </h2>
 #Combat
 
-##Aimbot
+## Aimbot
 - Draw Fov
 - Follow Recoil
 - Flashed Check
@@ -33,12 +33,12 @@
 - Rcs ( Per Weapon | 0 - 2 )
 - Hitbox Selector ( not per weapon )
 
-##Triggerbot
+## Triggerbot
 - Team Check
 - Scoped Check
 - Flashed Check
 
-##Visuals
+## Visuals
 - Box ( Classic, Corner )
 - Filled ( Filled, Gradient )
 - Healthbar
@@ -52,7 +52,7 @@
 - Visible Check
 - Flags ( Money, Lethal, Flashed, Hk, Defuser, Scoped, Defusing, Distance, Ping, Visible
 
-###Misc Visuals
+### Misc Visuals
 - Crosshair ( Customization, Sniper only, Follow Recoil )
 - Spread Circle
 - Velcoity
