@@ -94,6 +94,7 @@ Thanks to [michael conors](https://www.youtube.com/@michael18372/videos) for the
 - Minimizing healthbar function ( never got around to it )
 - Bomb timer using C4FullBlow
 - Vpk Paring
+- Draggable Esp Preview
 
 # Issues
 - Ammo / Armour not showing on esp preview
