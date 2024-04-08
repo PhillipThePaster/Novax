@@ -13,7 +13,7 @@
 
 ![image](https://github.com/PhillipThePaster/Novax/assets/49299203/702473be-00a7-479c-b88d-4317ad7484b4)
 
-<h4 align="center">Thanks to [michael conors](https://www.youtube.com/@michael18372/videos) for the hitbox images ( pentazocine ) on discord 
+Thanks to [michael conors](https://www.youtube.com/@michael18372/videos) for the hitbox images ( pentazocine ) on discord 
 
 
 <h2 align="center">
