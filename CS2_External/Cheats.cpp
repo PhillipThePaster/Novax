@@ -42,6 +42,8 @@ const char* Hitpos[] = { "Head", "Neck",  "Chest", "Stomach" , "Pelvis" };
 const char* labels[] = { "General", "W", "G", "A", "Z", "L" };
 const float widths[] = { 6.02f, 5.02f, 4.02f, 3.02f, 2.02f, 1.0f };
 
+const char* Wsettings[] = { "Name", "Fps", "Time", "Username", "Build"};
+
 
 int currentTab = 0;
 static int tabb = 0;
@@ -815,11 +817,7 @@ void Ui() {
 			if (ImGui::BeginPopup("##Settings"))
 			{
 				ImGui::TextUnformatted("Settings");
-				ImGui::Checkbox("Cheat Name", &Config::watermarkcheat);
-				ImGui::Checkbox("Fps", &Config::watermarkfps);
-				ImGui::Checkbox("Time", &Config::watermarktime);
-				ImGui::Checkbox("Username", &Config::watermarkuser);
-				ImGui::Checkbox("Build", &Config::watermarkbuild);
+				ImGui::MultiCombo("##Settings", &Config::Watermarkf, Wsettings, 5);
 				ImGui::EndPopup();
 			}
 			ToolTip("RightClick for more Options");
