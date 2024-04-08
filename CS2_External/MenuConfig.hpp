@@ -196,11 +196,7 @@ namespace Config {
 
 	//watermark
 	inline bool WaterMark = true;
-	inline bool watermarkcheat = true;
-	inline bool watermarkuser = true;
-	inline bool watermarkfps = true;
-	inline bool watermarktime = true;
-	inline bool watermarkbuild = true;
+        inline unsigned int Watermarkf = 0;
 
 	inline bool vsync = true;
 	inline bool Debuglist = false;
