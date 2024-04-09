@@ -107,3 +107,7 @@ Thanks to [michael conors](https://www.youtube.com/@michael18372/videos) for the
 
 
 this is based on [Tkazer](https://github.com/TKazer/CS2_External) -> [Aeonix](https://github.com/Fr0go1/Aeonix-Cs2) -> Novax
+
+# Dear Pasters
+  If you try to paste this and sell it then you will be exposed for pasting, if you dont know how to fix something or want something added then maybe [learn cpp](https://www.learncpp.com/) more.
+  Dont bother with making a issue for stupid reasons.
