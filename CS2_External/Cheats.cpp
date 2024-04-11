@@ -166,19 +166,26 @@ void visuals_preview() {
 		}
 	}
 
-	if (Config::ShowBoxESP && Config::BoxType == 0) cur_window->DrawList->AddRect(ImVec2(w_pos.x + 40, w_pos.y + 70), ImVec2(w_pos.x + 200, w_pos.y + 370), Config::BoxColor);
-	if (Config::ShowBoxESP && Config::BoxType == 1) {
-		float space = 80.f;
-		// Corners
-		cur_window->DrawList->AddLine(ImVec2(w_pos.x + 40, w_pos.y + 70), ImVec2(w_pos.x + 40 + space / 1.5, w_pos.y + 70), Config::BoxColor, 1.f); // Top Left | Direction: Right
-		cur_window->DrawList->AddLine(ImVec2(w_pos.x + 40, w_pos.y + 70), ImVec2(w_pos.x + 40, w_pos.y + 70 + space), Config::BoxColor, 1.f); // Top Left | Direction: Down
-		cur_window->DrawList->AddLine(ImVec2(w_pos.x + 200, w_pos.y + 370), ImVec2(w_pos.x + 200 - space / 1.5, w_pos.y + 370), Config::BoxColor, 1.f); // Top Right | Direction: Left
-		cur_window->DrawList->AddLine(ImVec2(w_pos.x + 200, w_pos.y + 370), ImVec2(w_pos.x + 200, w_pos.y + 370 - space), Config::BoxColor, 1.f); // Top Right | Direction: Down
-		cur_window->DrawList->AddLine(ImVec2(w_pos.x + 40, w_pos.y + 370), ImVec2(w_pos.x + 40 + space / 1.5, w_pos.y + 370), Config::BoxColor, 1.f); // Bottom Left | Direction: Right
-		cur_window->DrawList->AddLine(ImVec2(w_pos.x + 40, w_pos.y + 370), ImVec2(w_pos.x + 40, w_pos.y + 370 - space), Config::BoxColor, 1.f); // Bottom Left | Direction: Up
-		cur_window->DrawList->AddLine(ImVec2(w_pos.x + 200, w_pos.y + 70), ImVec2(w_pos.x + 200 - space / 1.5, w_pos.y + 70), Config::BoxColor, 1.f); // Bottom Right | Direction: Left
-		cur_window->DrawList->AddLine(ImVec2(w_pos.x + 200, w_pos.y + 70), ImVec2(w_pos.x + 200, w_pos.y + 70 + space), Config::BoxColor, 1.f); // Bottom Right | Direction: Up
+	if (Config::ShowBoxESP) {
+		if (Config::BoxType == 0)
+			cur_window->DrawList->AddRect(ImVec2(w_pos.x + 40, w_pos.y + 70), ImVec2(w_pos.x + 200, w_pos.y + 370), Config::BoxColor);
+
+		if (Config::BoxType == 1) {
+			float space = 80.f;
+			// Corners
+			cur_window->DrawList->AddLine(ImVec2(w_pos.x + 40, w_pos.y + 70), ImVec2(w_pos.x + 40 + space / 1.5, w_pos.y + 70), Config::BoxColor, 1.f); // Top Left | Direction: Right
+			cur_window->DrawList->AddLine(ImVec2(w_pos.x + 40, w_pos.y + 70), ImVec2(w_pos.x + 40, w_pos.y + 70 + space), Config::BoxColor, 1.f); // Top Left | Direction: Down
+			cur_window->DrawList->AddLine(ImVec2(w_pos.x + 200, w_pos.y + 370), ImVec2(w_pos.x + 200 - space / 1.5, w_pos.y + 370), Config::BoxColor, 1.f); // Top Right | Direction: Left
+			cur_window->DrawList->AddLine(ImVec2(w_pos.x + 200, w_pos.y + 370), ImVec2(w_pos.x + 200, w_pos.y + 370 - space), Config::BoxColor, 1.f); // Top Right | Direction: Down
+			cur_window->DrawList->AddLine(ImVec2(w_pos.x + 40, w_pos.y + 370), ImVec2(w_pos.x + 40 + space / 1.5, w_pos.y + 370), Config::BoxColor, 1.f); // Bottom Left | Direction: Right
+			cur_window->DrawList->AddLine(ImVec2(w_pos.x + 40, w_pos.y + 370), ImVec2(w_pos.x + 40, w_pos.y + 370 - space), Config::BoxColor, 1.f); // Bottom Left | Direction: Up
+			cur_window->DrawList->AddLine(ImVec2(w_pos.x + 200, w_pos.y + 70), ImVec2(w_pos.x + 200 - space / 1.5, w_pos.y + 70), Config::BoxColor, 1.f); // Bottom Right | Direction: Left
+			cur_window->DrawList->AddLine(ImVec2(w_pos.x + 200, w_pos.y + 70), ImVec2(w_pos.x + 200, w_pos.y + 70 + space), Config::BoxColor, 1.f); // Bottom Right | Direction: Up
+		}
 	}
+
+ 
+	
 
 
 
