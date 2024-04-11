@@ -831,10 +831,7 @@ void Ui() {
 
 			ImGui::Checkbox("Debuglist", &Config::Debuglist);
 			ImGui::Checkbox("V-sync", &Config::vsync);
-
-			if (ImGui::Button("Discord", ImVec2(ImGui::GetContentRegionAvail().x, 30)))
-				(ShellExecuteA)(NULL, ("open"), ("https://discord.gg/KDd33stjue"), NULL, NULL, SW_SHOWNORMAL);
-
+                        ImGui::Text("Removed Discord);
 			ImGui::Separator();
 			ImGui::Dummy(ImVec2(20, ImGui::GetContentRegionAvail().y / 1.17));
 			ButtonColor(255, 50, 0);
