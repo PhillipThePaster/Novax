@@ -651,7 +651,7 @@ void Ui() {
 
 					// ima change this leave it for now
 					ImGui::PushItemWidth(120.f);
-					ImGui::Combo("BoxStyle", &Config::BoxType, "Normal\0Corner");
+					ImGui::Combo("BoxStyle", &Config::BoxType, "Classic\0Corner");
 					ImGui::Combo("FilledStyle", &Config::BoxFillType, "Filled\0Gradient\0");
 					ImGui::Combo("WeaponStyle", &Config::WeaponStyle, "Icon\0Text");
 
