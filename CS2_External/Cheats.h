@@ -3,9 +3,7 @@
 
 #include "Game.h"
 #include "Entity.h"
-#include "AimBot.hpp"
 #include "Utils/keys.cpp"
-#include "TriggerBot.hpp"
 #include "Utils/Watermarkshit.hpp"
 #include "font/IconsFontAwesome5.h"
 #include "..\CS2_External\Hitsounds\Sounds.h"
